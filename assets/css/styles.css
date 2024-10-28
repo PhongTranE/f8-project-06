@@ -37,3 +37,85 @@ h6 {
 a {
     text-decoration: none;
 }
+
+a:hover,
+.btn:hover {
+    opacity: 0.9;
+}
+
+/* Header */
+.header {
+    position: sticky;
+    top: 0;
+    padding: 5px 0;
+    background: #fbfaff;
+}
+
+.header__inner {
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.email-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.email-img {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    padding: 15px 11px;
+    width: 46px;
+    height: 46px;
+    flex-shrink: 0;
+    border: 1px solid #5d3bee33;
+    border-radius: 50%;
+}
+
+.email-name {
+    width: 202px;
+    flex-shrink: 0;
+    color: #080415;
+    font-size: 2.2rem;
+    font-weight: 500;
+    line-height: 1.36364;
+    text-decoration-line: underline;
+}
+
+.profile-img {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.profile-icon {
+    width: 100%;
+    object-fit: cover;
+}
+
+.nav-list ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav-link {
+    padding: 10px 22px;
+    color: #51586a;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.nav-link:hover {
+    color: #000;
+    text-shadow: 1px 0 0 0 currentColor;
+}
