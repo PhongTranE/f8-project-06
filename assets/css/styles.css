@@ -173,7 +173,7 @@ a:hover,
 
 /* Hero */
 .hero {
-    padding-top: 44px;
+    padding: 44px 0 50px;
 }
 
 .hero__media {
@@ -276,4 +276,53 @@ a:hover,
     position: absolute;
     bottom: 0;
     translate: 40% 0;
+}
+
+/* Branch */
+.branch {
+    padding: 50px 0;
+}
+
+.branch-row {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.branch-subheading {
+    position: relative;
+    margin-left: 100px;
+    max-width: 253px;
+    color: #080415;
+    font-size: 4.2rem;
+    font-weight: 500;
+    line-height: 1.19;
+}
+
+.branch-subheading::before {
+    position: absolute;
+    display: block;
+    top: 22px;
+    left: -100px;
+    content: "";
+    width: 86px;
+    height: 2px;
+    background: #5d3bee;
+}
+
+.logo-branch {
+    display: flex;
+    margin-left: 105px;
+    gap: 35px;
+}
+
+.logo-branch-media {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    align-items: flex-start;
+}
+
+.logo-branch-media img {
+    height: 36px;
 }
